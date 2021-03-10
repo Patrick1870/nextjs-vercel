@@ -4,10 +4,14 @@ module.exports = {
   theme: {
     extend: {
     	colors: { 
-    		pinkPrimary: "#BC4A9C",
+    		pinkPrimary: "#dc2ade",
     		darkPrimary: "#111826"
-    	}
-    },
+    	},
+        animation: {
+            'spin-slow': 'spin 3s linear infinite',
+            'spin-very-slow': 'spin 5s linear infinite' 
+        }
+    }, 
   },
   variants: {
     extend: {},
