@@ -5,6 +5,8 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import SectionHeading from '../components/SectionHeading'
 import Portfolio from '../components/Portfolio'
+import Skills from '../components/Skills'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -15,27 +17,17 @@ export default function Home() {
       </Head>
 
       <main>
-        <Navbar />
         <Section component={<Hero />} />
         <About />
 
-        <Section heading={<SectionHeading />} component={<SectionHeading />} />
-
-
         <Portfolio />
+
+        <Skills />
 
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" />
-        </a>
-      </footer>
+      <Footer />    
+
     </div>
   )
 }

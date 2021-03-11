@@ -1,9 +1,9 @@
-const SectionHeading = () => {
+const SectionHeading = ({sectionName, sectionHeading}) => {
 	return (
-		<div>
-			Portfolio <br/>
-			Choosen web projects
-		</div>
+		<>
+			<h2 className="text-2xl mb-1 text-darkSecondary">{sectionName}</h2> 
+			<h2 className="text-4xl mb-8 text-white font-bold">{sectionHeading}</h2>
+		</>
 	)
 }
 

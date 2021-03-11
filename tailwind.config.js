@@ -10,11 +10,19 @@ module.exports = {
     		darkSecondary: "#657786",
         darkThird: "#1F2936",
     	},
-        animation: {
+      animation: {
             'spin-slow': 'spin 3s linear infinite',
             'spin-very-slow': 'spin 5s linear infinite' 
-        }
+      },
+      backgroundImage: theme => ({
+        'hero-pattern': "url('/img/hero-pattern.png')",
+      })
     }, 
+
+    fontFamily: {
+      'sans': ['Montserrat'],
+      'body': ['Montserrat'],
+    }
   },
   variants: {
     extend: {},

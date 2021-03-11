@@ -1,11 +1,10 @@
 const About = () => {
 	return (
-		<div className="flex items-between p-20 text-white bg-darkPrimary">
-			<div className="w-4/6">
-			<h2 className="text-4xl mb-3">About me <br /></h2>
-			<p className="text-4xl mb-3">
-				
-				3+ years of experience <br /> 
+		<div className="flex py-20 px-5 sm:p-20 text-white bg-darkPrimary text-xl">
+			<div className="w-full sm:w-4/6">
+			<h2 className="mb-3">About me </h2>
+			<p>
+				3+ years of experience 
 				Love science fiction and space. Love creating rocket websites. <br/> sBelive in Robert Monroe’s theory.
 			</p>
 			</div>

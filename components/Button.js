@@ -1,10 +1,11 @@
-const Button = ({text, color}) => {
+import Link from 'next/link'
 
-
+const Button = ({text, color, link}) => {
 	return (
-		<button className={`border-${color} px-8 py-3 border-2 border-opacity-80 rounded bg-transparent hover:bg-${color} text-${color} uppercase hover:text-white`}>
+		<Link href="/contact"><button className={`bg-${color} px-8 py-3 rounded hover:bg-${color} text-white uppercase font-bold text-sm transition duration-300 hover:bg-purple-600`}>
 			<p>{text}</p>
 		</button>
+		</Link>
 	)
 }
 
