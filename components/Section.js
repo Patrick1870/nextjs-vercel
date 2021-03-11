@@ -1,7 +1,7 @@
-const Section = ({component}) => {
+const Section = ({heading, component}) => {
 	return (
         <div className="h-screen p-20 w-full flex flex-wrap content-center justify-left align-center items-center bg-darkPrimary">
-        	{component}	
+        	<div>{component}</div>	
         </div>
 	)
 }

@@ -4,6 +4,7 @@ import Section from '../components/Section'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import SectionHeading from '../components/SectionHeading'
+import Portfolio from '../components/Portfolio'
 
 export default function Home() {
   return (
@@ -18,10 +19,11 @@ export default function Home() {
         <Section component={<Hero />} />
         <About />
 
-        <Section>
-          <SectionHeading />
+        <Section heading={<SectionHeading />} component={<SectionHeading />} />
 
-        </Section>
+
+        <Portfolio />
+
       </main>
 
       <footer>

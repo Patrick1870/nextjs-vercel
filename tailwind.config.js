@@ -5,7 +5,10 @@ module.exports = {
     extend: {
     	colors: { 
     		pinkPrimary: "#dc2ade",
-    		darkPrimary: "#111826"
+    		pinkSecondary: "#764ABC",
+    		darkPrimary: "#111826",
+    		darkSecondary: "#657786",
+        darkThird: "#1F2936",
     	},
         animation: {
             'spin-slow': 'spin 3s linear infinite',
