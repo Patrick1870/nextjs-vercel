@@ -1,18 +1,18 @@
 export default [
 	{
-		id: 1,
+		id: 0,
 		title: "ReactJS"
 	},
 	{
-		id: 3,
+		id: 1,
 		title: "Redux"
 	},
 	{
-		id: 4,
+		id: 2,
 		title: "NextJS"
 	},
 	{
-		id: 5,
+		id: 3,
 		title: "WordPress"
 	}
 ]
